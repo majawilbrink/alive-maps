@@ -11,7 +11,7 @@ version = "v1"
 include = ["system/apps/alive_maps/", "system/supervisord.conf.d/alive-maps.conf"]
 data_include = []
 exclude = ["data/", "other user-created apps", "accounts and secrets", "personal searches, route history, and cached map records"]
-modification_rules = []
+modification_rules = ["Create an MIT license scoped to the original Alive Maps app, icon, and template-specific documentation and artwork; preserve the existing terms and notices of Leaflet and inherited workspace components."]
 
 [requirements]
 

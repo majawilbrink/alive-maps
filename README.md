@@ -42,3 +42,11 @@ generic workspace template -- it is this specific project.
 works, what it needs to run, and what to adapt -- with the
 machine-readable half (recipe, requirements, and the environment it needs
 installed) in [`template.toml`](template.toml).
+
+## License
+
+The original Alive Maps app, icon, and template-specific documentation and artwork
+are available under the [MIT license](LICENSE). Bundled Leaflet and inherited
+workspace components retain their own terms. In particular, the workspace shell
+uses its [Fair Core License](system/apps/system_interface/LICENSE).
+See [third-party notices](THIRD_PARTY_NOTICES.md) for the other bundled notices.

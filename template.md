@@ -100,6 +100,14 @@ new agent. This is the `use-template` skill's template path; in short:
 6. When done, append a dated entry to "Adaptation history" below (never
    rewrite earlier entries) and commit.
 
+## Licensing
+
+The original Alive Maps app, icon, and template-specific documentation and artwork
+are MIT licensed. The published copy adds scoped license files and a README
+license section. Leaflet, inherited workspace code, and other third-party
+material keep their existing terms and notices; the workspace shell has its
+own Fair Core License.
+
 ## Publication history
 
 This template's changelog: what each published version changed. The PUBLISHER
