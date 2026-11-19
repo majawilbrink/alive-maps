@@ -1,0 +1,31 @@
+format = "v2"
+
+[template]
+slug = "alive-maps"
+title = "Alive Maps"
+description = "Walking routes that favor greenery, views, and street life within your extra-time budget."
+thumbnail = "template.svg"
+version = "v1"
+
+[recipe]
+include = ["system/apps/alive_maps/", "system/supervisord.conf.d/alive-maps.conf"]
+data_include = []
+exclude = ["data/", "other user-created apps", "accounts and secrets", "personal searches, route history, and cached map records"]
+modification_rules = []
+
+[requirements]
+
+[[requirements.adaptation]]
+summary = "Port 8084 must be available for Alive Maps."
+resolution = "Check for conflicts; if occupied, set ALIVE_MAPS_PORT to a free port and update the launch settings and forwarded URL to match."
+
+[environment]
+apt = []
+env_d_units = []
+
+
+[[lineage]]
+slug = "inbox-digest-review"
+repo_url = "https://github.com/imbue-ai/inbox-digest-review-mind-template"
+commit = "0ed139f04fced96fb0e1a7fa01affa12957f8a0c"
+used_on = "2026-10-08"

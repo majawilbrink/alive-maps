@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-labelledby="title desc">
+<title id="title">Alive Maps</title><desc id="desc">An illustrated walking map with a direct route and a greener detour. Locations and times are invented.</desc>
+<rect width="240" height="160" rx="12" fill="#f4f3eb"/>
+<path d="M0 25H240M0 56H240M0 88H240M0 120H240M35 0V160M76 0V160M119 0V160M163 0V160M204 0V160" stroke="#dfdfd3" stroke-width="9"/>
+<path d="M202 0H240V160H222C209 132 232 110 217 84S190 39 202 0" fill="#c2dbe0"/>
+<rect x="82" y="31" width="71" height="48" rx="13" fill="#ccdfb6"/>
+<path d="M94 66l7-17 7 17m10-10 7-17 7 17m5 16 6-13 6 13" fill="#8eaf74"/>
+<path d="M35 120L163 25" stroke="#9da49b" stroke-width="3" stroke-dasharray="4 4" fill="none"/>
+<path d="M35 120H76V88H119V25H163" stroke="#fff" stroke-width="9" stroke-linejoin="round" fill="none"/>
+<path d="M35 120H76V88H119V25H163" stroke="#42714e" stroke-width="5" stroke-linejoin="round" fill="none"/>
+<circle cx="35" cy="120" r="6" fill="#fff" stroke="#42714e" stroke-width="3"/>
+<path d="M163 12a9 9 0 0 1 9 9c0 7-9 15-9 15s-9-8-9-15a9 9 0 0 1 9-9" fill="#bf794b"/><circle cx="163" cy="21" r="3" fill="#fff"/>
+<rect x="10" y="9" width="83" height="24" rx="7" fill="#fff"/><text x="19" y="25" font-family="sans-serif" font-size="12" font-weight="700" fill="#33472e">Alive Maps</text>
+<rect x="86" y="111" width="137" height="36" rx="8" fill="#fff"/><circle cx="99" cy="123" r="3" fill="#42714e"/><text x="107" y="127" font-family="sans-serif" font-size="10" fill="#33472e">A greener walk</text><text x="97" y="139" font-family="sans-serif" font-size="8" fill="#6a7465">Illustration · +6 min</text>
+<circle cx="168" cy="89" r="7" fill="#bf794b"/><path d="M165 86h5v4h-5zm5 1h2v2h-2" stroke="#fff" stroke-width="1" fill="none"/>
+</svg>
